@@ -1,0 +1,20 @@
+
+# ignore envs & junk
+TCGA-Pancancer/tcga-env/
+**/.venv/
+**/venv/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.DS_Store
+TCGA-Pancancer/*.tsv
+TCGA-Pancancer/*.xlsx
+TCGA-Pancancer/*.seg
+TCGA-Pancancer/broad.mit.edu_PANCAN_Genome_Wide_SNP_6_whitelisted.seg
+TCGA-Pancancer/TCGA_mastercalls.abs_segtabs.fixed.txt
+TCGA-Pancancer/EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv
+TCGA-Pancancer/cleaned/unnormalized/rna.csv
+TCGA-Pancancer/cleaned/normalized/tcga.csv
+TCGA-Pancancer/cleaned/normalized/rna.csv
+.DS_Store
