@@ -71,32 +71,15 @@ IRR_Code/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - **Python** `3.9+`
-- Install dependencies via `requirements.txt`:
+- Install dependencies:
   - `numpy`, `pandas`, `scikit-learn`, `mapie`, `matplotlib`, `seaborn`, etc.
 
 ---
 
-## 📚 How to Get Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/ElenaLickel/IRR_Code.git
-   cd IRR_Code
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Explore the experiments:
-   - For synthetic simulations: see [`simulation/`](simulation/)
-   - For TCGA Pan-Cancer: see [`TCGA-Pancancer/`](TCGA-Pancancer/)
-
----
-
-## 📊 Data Preparation (TCGA)
+## Data Preparation (TCGA)
 
 1. **Download the data**  
    Head to the Pan-Cancer Atlas page and download all the supplemental data.  
