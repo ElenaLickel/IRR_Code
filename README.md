@@ -3,12 +3,13 @@ This repository contains the full codebase for evaluating and implementing Confo
 The project investigates the performance of Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA) classifiers under various data conditions, both on synthetic simulations and on real-world multi-class cancer classification using the TCGA Pan-Cancer RNA-Seq dataset.
 
 ## Repository Structure
+
 IRR_Code/
 │
-├── TCGA-Pancancer/    # Code and notebooks for TCGA Pan-Cancer experiments
-├── simulation/        # Synthetic data simulation experiments for LDA & QDA
-├── .gitignore         # Files and folders excluded from Git tracking
-└── README.md          # This document
+├── TCGA-Pancancer/ # Code and notebooks for TCGA Pan-Cancer experiments
+├── simulation/ # Synthetic data simulation experiments for LDA & QDA
+├── .gitignore # Files and folders excluded from Git tracking
+└── README.md # This document
 
 ## Key Features
 - Synthetic simulation framework for generating high-dimensional classification tasks.
