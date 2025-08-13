@@ -96,7 +96,6 @@ IRR_Code/
 3. **Run preprocessing scripts** to prepare the dataset.
 
 4. **Execute notebooks or Python scripts** to train models and evaluate results.
-5. 
 ---
 
 ## Citation
