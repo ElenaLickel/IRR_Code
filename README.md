@@ -1,6 +1,14 @@
 # IRR_Code
-This repository contains the full codebase for evaluating and implementing Conformal Prediction analysis as part of my MSc Individual Research Report at Imperial College London.
-The project investigates the performance of Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA) classifiers under various data conditions, both on synthetic simulations and on real-world multi-class cancer classification using the TCGA Pan-Cancer RNA-Seq dataset.
+
+**Imperial College London MSc Individual Research Report**  
+*Conformal Prediction with LDA & QDA Classifiers*
+
+---
+
+This repository contains the full codebase for evaluating and implementing **Conformal Prediction analysis** as part of my MSc Individual Research Report.  
+The project explores the performance of **Linear Discriminant Analysis (LDA)** and **Quadratic Discriminant Analysis (QDA)** classifiers under various data conditions, including synthetic simulations and real RNA-Seq datasets.
+
+---
 
 ## Repository Structure
 
@@ -13,12 +21,33 @@ IRR_Code/
 └── README.md          # This document
 ```
 
+---
+
 ## Key Features
-- Synthetic simulation framework for generating high-dimensional classification tasks.
-- Implementation of Conformal Prediction (MapieClassifier) with multiple scoring rules (Brier, log-loss, spherical).
-- Evaluation of coverage, sharpness, and probabilistic calibration for LDA and QDA.
-- TCGA Pan-Cancer RNA-Seq multi-class classification pipeline with preprocessing, dimensionality reduction, and CP evaluation.
+
+- **Synthetic simulation framework:** Generate high-dimensional classification tasks for robust benchmarking.
+- **Conformal Prediction (MapieClassifier):** Implementation with multiple scoring rules (Brier, log-loss, spherical).
+- **Comprehensive Evaluation:** Coverage, sharpness, and probabilistic calibration for LDA/QDA.
+- **TCGA Pan-Cancer Pipeline:** RNA-Seq multi-class classification with preprocessing, dimensionality reduction, and CP evaluation.
+
+---
 
 ## Requirements
-Python 3.9+
-Dependencies listed in requirements.txt (NumPy, pandas, scikit-learn, MAPIE, matplotlib, seaborn, etc.).
+
+- **Python** `3.9+`
+- Install dependencies via `requirements.txt`:
+  - `numpy`, `pandas`, `scikit-learn`, `mapie`, `matplotlib`, `seaborn`, etc.
+
+---
+
+## Citation
+
+Please cite this repository or related publications if you use this code for your research!
+
+---
+
+## Contact
+
+For questions or collaborations, please contact:  
+**Elena Lickel**  
+[github.com/ElenaLickel](https://github.com/ElenaLickel)
