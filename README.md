@@ -35,7 +35,7 @@ IRR_Code/
 ## Requirements
 
 - **Python** `3.9+`
-- Install dependencies via `requirements.txt`:
+- Install dependencies:
   - `numpy`, `pandas`, `scikit-learn`, `mapie`, `matplotlib`, `seaborn`, etc.
 
 ---
