@@ -4,12 +4,14 @@ The project investigates the performance of Linear Discriminant Analysis (LDA) a
 
 ## Repository Structure
 
+```
 IRR_Code/
 │
-├── TCGA-Pancancer/ # Code and notebooks for TCGA Pan-Cancer experiments
-├── simulation/ # Synthetic data simulation experiments for LDA & QDA
-├── .gitignore # Files and folders excluded from Git tracking
-└── README.md # This document
+├── TCGA-Pancancer/    # TCGA Pan-Cancer experiments: notebooks & code
+├── simulation/        # Synthetic data simulation experiments for LDA & QDA
+├── .gitignore         # Files/folders excluded from Git tracking
+└── README.md          # This document
+```
 
 ## Key Features
 - Synthetic simulation framework for generating high-dimensional classification tasks.
