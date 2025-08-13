@@ -19,6 +19,22 @@ under varying levels of class heterogeneity and dataset complexity.
 
 ---
 
+## Directory Layout
+
+### Main Notebooks
+- `Data_simulation.ipynb` — Generates synthetic datasets for LDA/QDA experiments, including custom covariance structures and class arrangements.
+- `Data_simulation_new_plots.ipynb` — Extended version of the simulation notebook with additional visualisations and updated plotting functions.
+- `Data_simularion_new_data.ipynb` — Different synthetic data generator with alternative parameter settings and data output for downstream experiments.
+- `Evaluate_Classifier.ipynb` — Compares classifier performance (LDA, QDA, and variants with Conformal Prediction) across multiple metrics and experimental setups.
+- `Conformal_prediction-1.ipynb` — Initial conformal prediction implementation applied to synthetic data with coverage, sharpness, and scoring rule evaluation.
+- `Conformal_prediction_new_data.ipynb` — Conformal prediction implementation applied to differently generated synthetic data with coverage, sharpness, and scoring rule evaluation.
+
+### Python Scripts
+- `simulation_utils.py` — Helper functions for synthetic data generation, covariance blending, and class layout configuration.
+- `scoring_utils.py` — Utility functions for computing proper scoring rules (Brier, log-loss, spherical) and other performance metrics.
+
+---
+
 ## Usage
 
 1. Adjust simulation parameters in the configuration section of the scripts.
